@@ -44,6 +44,6 @@ _example: deepCopy(input)_
 
 type: `object`, `array`
 
-desc: things you want to deep copy
+desc: things you want to copy
 
 return: things that have been copied and have no any relationship with the source
