@@ -1,12 +1,12 @@
 {
   "name": "@hankychung/deep-copy",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "a tool for copying object/array in a real deep way",
   "main": "lib/index.js",
   "author": "Han",
   "license": "ISC",
   "scripts": {
-    "babel": "npx babel index.js --out-file lib/index.js"
+    "babel": "npx babel src/index.js --out-file lib/index.js"
   },
   "keywords": [
     "deepcopy",
