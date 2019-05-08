@@ -1,0 +1,16 @@
+{
+  "name": "@hankychung/deep-copy",
+  "version": "1.0.0",
+  "description": "a tool for copying object/array in a real deep way",
+  "main": "lib/index.js",
+  "author": "Han",
+  "license": "ISC",
+  "scripts": {
+    "babel": "npx babel index.js --out-file lib/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4"
+  }
+}
