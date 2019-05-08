@@ -38,8 +38,8 @@ function copyArr(e) {
 }
 
 export default e => {
+  if (typeof (e) === 'function') throw 'function is not supported'
   if (isRaw(e)) return e
   if (isArr(e)) return copyArr(e)
   if (typeof (e) === 'object') return deepCopy(e)
-  throw 'function is not supported'
 }
