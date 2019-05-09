@@ -3,9 +3,9 @@ a tool for copying object/array in a real deep way
 
 ## usage
 ```
-npm i deepcopy_han -D
+npm i @hankychung/deep-copy -D
 
-import deepCopy from 'deepcopy_han'
+import deepCopy from '@hankychung/deep-copy'
 
 let a = {
   age: 1,
