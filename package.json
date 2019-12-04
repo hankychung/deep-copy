@@ -1,6 +1,6 @@
 {
   "name": "@hankychung/deep-copy",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "a tool for copying object/array in a real deep way",
   "main": "lib/index.js",
   "author": "Han",
