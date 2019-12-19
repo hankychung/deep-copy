@@ -1,5 +1,9 @@
 function isRaw(e) {
-  if (Object.prototype.toString.call(e) !== "[object Object]") return true;
+  if (
+    Object.prototype.toString.call(e) === "[object Null]" ||
+    typeof e !== "object"
+  )
+    return true;
   return false;
 }
 
